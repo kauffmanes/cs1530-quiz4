@@ -13,4 +13,5 @@ public class Rectangle implements Shape {
 		int id = rand.nextInt(10000);       
 		System.out.printf("Rectangle ID: %d\n\n", id);
 	}
+	
 }

@@ -4,6 +4,7 @@
  * CS1530 - 1010 - Quiz4
  * Concrete class for Circle that uses instance of Shape
  */
+import java.util.Random;
 
 public class Circle implements Shape {
 	

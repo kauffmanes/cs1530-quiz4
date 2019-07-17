@@ -4,6 +4,7 @@
  * CS1530 - 1010 - Quiz4
  * Concrete class Green that uses instance of Color
  */
+import java.util.Random;
 
 public class Green implements Color {
 	 

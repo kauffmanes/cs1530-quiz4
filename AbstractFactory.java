@@ -8,5 +8,6 @@
 public abstract class AbstractFactory {
 	public abstract Shape getShape(String shapeType);
 	public abstract Color getColor(String colorType);
+	public abstract Texture getTexture(String textureType);
 	public void showMessage() {};
 }

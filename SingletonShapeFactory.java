@@ -4,6 +4,7 @@
  * CS1530 - 1010 - Quiz4
  * Makes sure application only has one instance of this factory
  */
+import java.util.Random;
 
 public class SingletonShapeFactory extends AbstractFactory {
 
@@ -58,6 +59,14 @@ public class SingletonShapeFactory extends AbstractFactory {
 	 */
 	@Override
 	public Color getColor(String colorType) {
+		return null;
+	}
+
+	/**
+	 * Return a texture
+	 */
+	@Override
+	public Texture getTexture(String textureType) {
 		return null;
 	}
 

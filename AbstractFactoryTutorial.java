@@ -27,22 +27,22 @@ public class AbstractFactoryTutorial {
 			rectangle.draw(); // Rectangle ID: 823
 
 			// DRAWS A RED COLOR
-			AbstractFactory factory3 = FactoryProducer.getFactory("COLOR");
-			factory3.showMessage(); // Color Factory ID: 2155
-			Color red = factory3.getColor("RED");
-			red.fill(); // RED ID: 5268
+			// AbstractFactory factory3 = FactoryProducer.getFactory("COLOR");
+			// factory3.showMessage(); // Color Factory ID: 2155
+			// Color red = factory3.getColor("RED");
+			// red.fill(); // RED ID: 5268
 
-			// DRAWS A GREEN COLOR
-			AbstractFactory factory4 = FactoryProducer.getFactory("COLOR");
-			factory4.showMessage(); // Color Factory ID: 2155
-			Color green = factory4.getColor("GREEN");
-			green.fill(); // GREEN ID: 6282
+			// // DRAWS A GREEN COLOR
+			// AbstractFactory factory4 = FactoryProducer.getFactory("COLOR");
+			// factory4.showMessage(); // Color Factory ID: 2155
+			// Color green = factory4.getColor("GREEN");
+			// green.fill(); // GREEN ID: 6282
 
-			// DRAWS A BLUE COLOR
-			AbstractFactory factory5 = FactoryProducer.getFactory("COLOR");
-			factory5.showMessage(); // Color Factory ID: 2155
-			Color blue = factory5.getColor("BLUE");
-			blue.fill(); // BLUE ID: 8976
+			// // DRAWS A BLUE COLOR
+			// AbstractFactory factory5 = FactoryProducer.getFactory("COLOR");
+			// factory5.showMessage(); // Color Factory ID: 2155
+			// Color blue = factory5.getColor("BLUE");
+			// blue.fill(); // BLUE ID: 8976
 
 		}
 	}

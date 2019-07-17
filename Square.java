@@ -9,7 +9,9 @@ public class Square implements Shape {
 
 	@Override
 	public void draw() {
-		System.out.println("Inside Square::draw() method.");
+		Random rand = new Random();
+		int id = rand.nextInt(10000);       
+		System.out.printf("Square ID: %d\n\n", id);
 	}
 
 }
